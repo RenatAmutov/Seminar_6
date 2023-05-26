@@ -10,14 +10,6 @@ int InputNumber()
     int num = Convert.ToInt32(Console.ReadLine());
     return num;
 }
-// void CreateArray(int[] arr)
-// {
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         arr[i] = new Random().Next(0, 1);
-//     }
-
-// }
 void InputArray(int[] arr){
      for (int i=0; i<arr.Length; i++){
        Console.Write("Введите число: ");
